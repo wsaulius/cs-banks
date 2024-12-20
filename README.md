@@ -27,9 +27,8 @@ and other modern interaction models.
     MAUI (Multi-platform App UI): A more recent framework for building cross-platform apps 
 targeting Android, iOS, macOS, and Windows. MAUI allows you to write code once and deploy 
 it to multiple platforms.
+
 ---
-
-
 
 
 Please correct the problems that are in the code (multi-threaded concurrency, race-conditions
