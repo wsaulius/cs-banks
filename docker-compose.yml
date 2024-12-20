@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  dotnet-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dotnet-console-app
+    command: ["dotnet", "YourAppName.dll"]
+    volumes:
+      - ./logs:/app/logs  # Example of binding a logs folder if needed
+    environment:
+      DOTNET_ENVIRONMENT: "Production"
+    tty: true  # Keeps the container open for interactive applications if needed
+
