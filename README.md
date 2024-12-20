@@ -29,28 +29,18 @@ targeting Android, iOS, macOS, and Windows. MAUI allows you to write code once a
 it to multiple platforms.
 
 
- ** Can you list all 11 HTTP methods, with purpose ? ** 
-Here is a list of all HTTP methods, also known as HTTP verbs, which define the type of action to
-be performed on the server:
 
-    GET
-       
-    POST
 
-    PUT
 
-    DELETE
+Please correct the problems that are in the code (multi-threaded concurrency, race-conditions
+and encapsulation). 
 
-    PATCH
+The minimal expected effort is to add locking primitives to guarantee accurate deposits and 
+withdrawals. Optional: interest calculations for the saving accounts. 
 
-        OPTIONS
-        
-        HEAD
-        
-        TRACE
-        
-        CONNECT
-        
-        LINK
-        
-        UNLINK
+The mid-effort is to write a GUI client with the buttons for Deposit and Withdraw 
+using one of the methodologies listed above: WinForms, WPF, UWP or MAUI. 
+
+The maximum is to write a Dockerfile that deploys the program within a container, runnig Alpine  
+Linux and .NET core program in the command line.  
+
