@@ -27,7 +27,7 @@ and other modern interaction models.
     MAUI (Multi-platform App UI): A more recent framework for building cross-platform apps 
 targeting Android, iOS, macOS, and Windows. MAUI allows you to write code once and deploy 
 it to multiple platforms.
-
+---
 
 
 
@@ -41,6 +41,9 @@ withdrawals. Optional: interest calculations for the saving accounts.
 The mid-effort is to write a GUI client with the buttons for Deposit and Withdraw 
 using one of the methodologies listed above: WinForms, WPF, UWP or MAUI. 
 
-The maximum is to write a Dockerfile that deploys the program within a container, runnig Alpine  
-Linux and .NET core program in the command line.  
+The maximum is to write a Dockerfile that deploys the program within a container, running Alpine  
+Linux and .NET core console program in the command line.  
+
+
+Bonus points: use Reflection and IDisposible in the process. 
 
